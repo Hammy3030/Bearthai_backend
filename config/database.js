@@ -2,7 +2,7 @@ import mongoose from 'mongoose';
 
 // MongoDB connection configuration
 // Fallback to default MongoDB Atlas connection if .env is not configured
-const MONGODB_URI = process.env.DATABASE_URL || process.env.MONGODB_URI || 'mongodb+srv://bearthai:bearthai123@bearthai.vhek1d9.mongodb.net/bearthai?retryWrites=true&w=majority';
+const MONGODB_URI = process.env.DATABASE_URL || process.env.MONGODB_URI || 'mongodb+srv://skxngna_db_user:FLTdjZZWH0OKmpJl@project-bearthai.q5cfoza.mongodb.net/bearthai?retryWrites=true&w=majority&appName=Project-Bearthai';
 
 if (!MONGODB_URI) {
   console.error('❌ Error: DATABASE_URL or MONGODB_URI is required!');
